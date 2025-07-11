@@ -60,6 +60,10 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+.br-48 {
+    border-radius: 48px;
+}
 .text-center {
     text-align: center;
 }
@@ -140,10 +144,6 @@ main {
     margin-block: 23px;
 }
 
-.live-preview-image img {
-    max-width: 403px;
-    border-radius: 48px;
-}
 
 /* Statistics styles */
 
@@ -162,7 +162,7 @@ main {
     margin-block: 0 40px;
 }
 
-.statistics-colums {
+.statistics-columns {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -260,4 +260,34 @@ main {
     font-weight: 400;
     line-height: 22.4px;
     margin: 0;
+}
+
+/* Free trial */
+
+.free-trial {
+    padding-block: 71px;
+    border-radius: 14px;
+    background: #FFF;
+    text-align: center;
+}
+
+.free-trial-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 0;
+}
+
+.free-trial-description {
+    color: #00000080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-block: 20px;
+}
+
+.free-trial-banner {
+    padding-top: 20px;
 }
