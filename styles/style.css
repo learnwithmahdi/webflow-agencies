@@ -141,3 +141,48 @@ main {
     max-width: 403px;
     border-radius: 48px;
 }
+
+/* Statistics styles */
+
+.statistics {
+    padding: 50px 80px;
+    border-radius: 24px;
+    background-color: #4E47FF1A;
+    
+}
+
+.statistics-title {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-block: 0 40px;
+}
+
+.statistics-colums {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active-user, focus-sessions, satisfaction-rate  {
+    text-align: center;
+}
+
+.user-number {
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.user-title {
+    color: #00000080;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
