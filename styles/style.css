@@ -60,6 +60,9 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+.text-center {
+    text-align: center;
+}
 
 /* Header */
 
@@ -184,5 +187,77 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
+}
+
+/* Clients review styles */
+.clients-review {
+    padding-block: 137px;
+}
+
+.review-card-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review-card {
+    padding: 24px;
+    border-radius: 14px;
+    background-color: #FFFFFF80;
+    border:1px solid #F2EDED;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.review-title {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: -0.48px;
+    margin-block: 24px 8px;
+}
+
+.review-description {
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin: 0;
+}
+
+.reviewer-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 24px;
+}
+
+.reviewer-img {
+    border-radius: 50%;
+}
+
+.author-name {
+    color: #757575;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    margin: 0;
+}
+
+.review-date {
+    color: #B3B3B3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
     margin: 0;
 }
